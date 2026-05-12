@@ -23,7 +23,7 @@ ref.on("value", dados_tabela => {
                 <th>Informações</th>
                 <th colspan="2">Opções</th>
             </tr>
- `);
+    `);
     dados_tabela.forEach(registro =>  {
         let reg = registro.val();
         let id = registro.key;
